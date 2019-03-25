@@ -6,7 +6,7 @@ namespace Radiant.Bot.App
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Radiant Bot"); 
+            Console.WriteLine("Hello Radiant Bot");
         }
     }
 }
