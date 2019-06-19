@@ -1,9 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.421
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Radiant.Bot.App", "src\Radiant.Bot.App\Radiant.Bot.App.csproj", "{177438B5-A6E7-4F65-951E-32DBA6641318}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Radiant.Bot.App", "src\Radiant.Bot.App\Radiant.Bot.App.csproj", "{177438B5-A6E7-4F65-951E-32DBA6641318}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Radiant.Bot.Core", "src\Radiant.Bot.Core\Radiant.Bot.Core.csproj", "{683BA319-0A00-481F-BA90-3CC213795902}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Radiant.Bot.Discord", "src\Radiant.Bot.Discord\Radiant.Bot.Discord.csproj", "{0F9D877D-0FB5-46B3-9326-F4688CB7F028}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Radiant.Bot.Configuration", "src\Radiant.Bot.Configuration\Radiant.Bot.Configuration.csproj", "{AEE35A41-5897-44D3-8785-D070D5102111}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Radiant.Bot.Storage", "src\Radiant.Bot.Storage\Radiant.Bot.Storage.csproj", "{08F3EB20-AFAA-4F57-ABD9-CB05A82D536B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{177438B5-A6E7-4F65-951E-32DBA6641318}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{177438B5-A6E7-4F65-951E-32DBA6641318}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{177438B5-A6E7-4F65-951E-32DBA6641318}.Release|Any CPU.Build.0 = Release|Any CPU
+		{683BA319-0A00-481F-BA90-3CC213795902}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{683BA319-0A00-481F-BA90-3CC213795902}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{683BA319-0A00-481F-BA90-3CC213795902}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{683BA319-0A00-481F-BA90-3CC213795902}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F9D877D-0FB5-46B3-9326-F4688CB7F028}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F9D877D-0FB5-46B3-9326-F4688CB7F028}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F9D877D-0FB5-46B3-9326-F4688CB7F028}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F9D877D-0FB5-46B3-9326-F4688CB7F028}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEE35A41-5897-44D3-8785-D070D5102111}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEE35A41-5897-44D3-8785-D070D5102111}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEE35A41-5897-44D3-8785-D070D5102111}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEE35A41-5897-44D3-8785-D070D5102111}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08F3EB20-AFAA-4F57-ABD9-CB05A82D536B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08F3EB20-AFAA-4F57-ABD9-CB05A82D536B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08F3EB20-AFAA-4F57-ABD9-CB05A82D536B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08F3EB20-AFAA-4F57-ABD9-CB05A82D536B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

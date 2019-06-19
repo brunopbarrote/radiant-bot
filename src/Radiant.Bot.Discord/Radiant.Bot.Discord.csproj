@@ -1,22 +1,17 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.2</TargetFramework>
-    <LangVersion>7.3</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="DSharpPlus" Version="4.0.0-nightly-00564" />
     <PackageReference Include="DSharpPlus.CommandsNext" Version="4.0.0-nightly-00564" />
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.2.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Radiant.Bot.Configuration\Radiant.Bot.Configuration.csproj" />
-    <ProjectReference Include="..\Radiant.Bot.Discord\Radiant.Bot.Discord.csproj" />
     <ProjectReference Include="..\Radiant.Bot.Core\Radiant.Bot.Core.csproj" />
-    <ProjectReference Include="..\Radiant.Bot.Storage\Radiant.Bot.Storage.csproj" />
   </ItemGroup>
+
 
 </Project>

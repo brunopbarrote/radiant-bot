@@ -1,12 +1,14 @@
-﻿using System;
+﻿using Microsoft.Extensions.DependencyInjection;
+using Radiant.Bot.Core;
+using System.Threading.Tasks;
 
 namespace Radiant.Bot.App
 {
-    class Program
+    internal static class Program
     {
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
-            Console.WriteLine("Hello Radiant Bot");
+            await ActivatorUtilities.CreateInstance<RadiantService>(InversionOfControl.Provider).RunAsync();
         }
     }
 }
